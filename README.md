@@ -1,2 +1,2 @@
 # AnonyChat UML
-![UML Diagram](UML.jpg)
+![UML Diagram](UML.svg)
