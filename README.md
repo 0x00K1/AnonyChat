@@ -1,2 +1,2 @@
 # AnonyChat UML
-[View Documentation](UML.pdf)
+![UML Image](UML.pdf)
