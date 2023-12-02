@@ -61,19 +61,3 @@ This repository contains a Java chat server application with added SSL/TLS encry
 
 - Ensure that your client application also supports SSL. Use `SSLSocket` and `SSLSocketFactory` for client-side socket connections.
 - For self-signed certificates, configure the client to trust the server's certificate. For production with a CA-issued certificate, this is usually not needed.
-
-## Testing
-
-Test your server and client applications to ensure SSL/TLS encryption works correctly.
-
-## Production Considerations
-
-- Obtain a certificate from a trusted CA for production use.
-- Securely manage keystore and truststore files.
-- Review and enhance the SSL configuration, including the choice of cipher suites and protocols.
-- Adhere to security best practices when dealing with certificates and private keys.
-
-## Contributing
-
-Instructions for contributing to the project (if applicable).
-```
