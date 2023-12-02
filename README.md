@@ -7,9 +7,9 @@ Anonychat is a command-line interface (CLI) based chat application that enables 
 ## How to Run
 
 ### Prerequisites
-Ensure you have *Java* installed on your system. 
-Java Development Kit (JDK) V17-20.
-You can download from [Oracle's Java website](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html).
+- Ensure you have **Java** installed on your system. 
+- Java Development Kit (JDK) V17-20.
+- You can download from [Oracle's Java website](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html).
 
 ### Windows
 1. Download the Anonychat.exe file.
@@ -81,3 +81,7 @@ This repository contains a Java chat server application with added SSL/TLS encry
 
 - Ensure that your client application also supports SSL. Use `SSLSocket` and `SSLSocketFactory` for client-side socket connections.
 - For self-signed certificates, configure the client to trust the server's certificate. For production with a CA-issued certificate, this is usually not needed.
+
+
+## Antivirus Notification
+Some antivirus software might flag Anonychat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for Anonychat.
