@@ -2,7 +2,7 @@
 # AnonyChat
 Anonychat is a command-line interface (CLI) based chat application that enables users to connect and communicate in a secure and user-friendly environment. Designed with a focus on privacy chatting, it provides essential functionalities for both regular users and server root, ensuring private and safe communication.
 
-🔐 **Important**: Please read the ["ChatServer&&Client with SSL/TLS Encryption"](##chatserverclient-with-ssltls-encryption) section below to understand how Anonychat ensures privacy through SSL/TLS encryption.
+🔐 **Important**: Please read the **ChatServer&&Client with SSL/TLS Encryption** section below to understand how Anonychat ensures privacy through SSL/TLS encryption.
 
 ## 📊 AnonyChat UML
 ![UML Diagram](UML.svg)
