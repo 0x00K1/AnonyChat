@@ -1,10 +1,12 @@
-# AnonyChat
+# 🌐 AnonyChat
 Anonychat is a command-line interface (CLI) based chat application that enables users to connect and communicate in a secure and user-friendly environment. Designed with a focus on privacy chatting, it provides essential functionalities for both regular users and server root, ensuring private and safe communication.
 
-## AnonyChat UML
+🔐 **Important**: Please read the "ChatServer&&Client with SSL/TLS Encryption" section below to understand how Anonychat ensures privacy through SSL/TLS encryption.
+
+## 📊 AnonyChat UML
 ![UML Diagram](UML.svg)
 
-## How to Run
+## 🚀 How to Run
 
 ### Prerequisites
 - Ensure you have **Java** installed on your system. 
@@ -21,7 +23,7 @@ Anonychat is a command-line interface (CLI) based chat application that enables 
 3. Navigate to the directory where you downloaded Anonychat.jar.
 4. Run the program using the command: `java -jar Anonychat.jar`.
 
-## ChatServer&&Client with SSL/TLS Encryption
+## 🔒 ChatServer&&Client with SSL/TLS Encryption
 
 This repository contains a Java chat server application with added SSL/TLS encryption for secure data transmission. Below are the instructions to set up and run the server with SSL/TLS encryption.
 
@@ -82,6 +84,5 @@ This repository contains a Java chat server application with added SSL/TLS encry
 - Ensure that your client application also supports SSL. Use `SSLSocket` and `SSLSocketFactory` for client-side socket connections.
 - For self-signed certificates, configure the client to trust the server's certificate. For production with a CA-issued certificate, this is usually not needed.
 
-
-## Antivirus Notification
+## ⚠️ Antivirus Notification
 Some antivirus software might flag Anonychat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for Anonychat.
