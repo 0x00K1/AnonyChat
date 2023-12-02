@@ -7,7 +7,7 @@ This repository contains a Java chat server application with added SSL/TLS encry
 
 ## Prerequisites
 
-- Java Development Kit (JDK)
+- Java Development Kit (JDK) V17-20
 - Access to command line tools or terminal
 
 ## Generating a Keystore and SSL Certificate
