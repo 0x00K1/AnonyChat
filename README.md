@@ -1,16 +1,36 @@
-# AnonyChat UML
+# AnonyChat
+Anonychat is a command-line interface (CLI) based chat application that enables users to connect and communicate in a secure and user-friendly environment. Designed with a focus on privacy chatting, it provides essential functionalities for both regular users and server root, ensuring private and safe communication.
+
+## AnonyChat UML
 ![UML Diagram](UML.svg)
 
-# ChatServer&&Client with SSL/TLS Encryption
+## How to Run
+
+### Prerequisites
+Ensure you have *Java* installed on your system. 
+Java Development Kit (JDK) V17-20.
+You can download from [Oracle's Java website](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html).
+
+### Windows
+1. Download the Anonychat.exe file.
+2. Double-click on Anonychat.exe to run the application.
+
+### Mac and Linux
+1. Download the Anonychat.jar file.
+2. Open your terminal.
+3. Navigate to the directory where you downloaded Anonychat.jar.
+4. Run the program using the command: `java -jar Anonychat.jar`.
+
+## ChatServer&&Client with SSL/TLS Encryption
 
 This repository contains a Java chat server application with added SSL/TLS encryption for secure data transmission. Below are the instructions to set up and run the server with SSL/TLS encryption.
 
-## Prerequisites
+### Prerequisites
 
 - Java Development Kit (JDK) V17-20
 - Access to command line tools or terminal
 
-## Generating a Keystore and SSL Certificate
+### Generating a Keystore and SSL Certificate
 
 1. Generate a self-signed SSL certificate using Java's keytool utility. For production, obtain a certificate from a trusted Certificate Authority (CA).
 
@@ -20,7 +40,7 @@ This repository contains a Java chat server application with added SSL/TLS encry
 
    Replace `keystore.jks` and `password` with your desired keystore filename and password.
 
-## Server Setup
+### Server Setup
 
 1. **Import SSL Classes**
 
@@ -57,7 +77,7 @@ This repository contains a Java chat server application with added SSL/TLS encry
      -Djavax.net.ssl.keyStore=path/to/keystore.jks -Djavax.net.ssl.keyStorePassword=password
      ```
 
-## Client Configuration
+### Client Configuration
 
 - Ensure that your client application also supports SSL. Use `SSLSocket` and `SSLSocketFactory` for client-side socket connections.
 - For self-signed certificates, configure the client to trust the server's certificate. For production with a CA-issued certificate, this is usually not needed.
