@@ -1,7 +1,6 @@
 # AnonyChat UML
 ![UML Diagram](UML.svg)
 
-```
 # Java Chat Server with SSL/TLS Encryption
 
 This repository contains a Java chat server application with added SSL/TLS encryption for secure data transmission. Below are the instructions to set up and run the server with SSL/TLS encryption.
