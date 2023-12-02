@@ -96,6 +96,5 @@ This repository contains a Java chat server application with added SSL/TLS encry
 5. Ngrok will provide a public URL (global IP) for accessing your server.
 6. Use this URL to access your server from anywhere in the world.
 
-   
 ## ⚠️ Antivirus Notification
 Some antivirus software might flag Anonychat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for Anonychat.
