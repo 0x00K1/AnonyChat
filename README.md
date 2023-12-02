@@ -85,5 +85,17 @@ This repository contains a Java chat server application with added SSL/TLS encry
 - Ensure that your client application also supports SSL. Use `SSLSocket` and `SSLSocketFactory` for client-side socket connections.
 - For self-signed certificates, configure the client to trust the server's certificate. For production with a CA-issued certificate, this is usually not needed.
 
+## 🌍 Converting Local IP to Global IP Using Ngrok
+
+### Ngrok Setup and Usage
+
+1. Download and install Ngrok from https://ngrok.com/.
+2. Connect your account using the auth token provided by Ngrok.
+3. Start your local server (e.g., a chat server running on port 8080).
+4. Use the command `ngrok tcp 8080` to start a tunnel to your local server.
+5. Ngrok will provide a public URL (global IP) for accessing your server.
+6. Use this URL to access your server from anywhere in the world.
+
+   
 ## ⚠️ Antivirus Notification
 Some antivirus software might flag Anonychat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for Anonychat.
