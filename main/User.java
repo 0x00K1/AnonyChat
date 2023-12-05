@@ -138,7 +138,7 @@ public class User extends ChatJoin{
         printChatInterface(true);
     }
     
-    protected void handleExit() {
+    protected void handleExit() throws IOException {
     	Main.clearScreen();
         System.out.println("Exiting program . .");
         System.out.println("Thank you for using " + Main.PROGRAM_NAME + ".");
