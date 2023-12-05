@@ -142,6 +142,7 @@ public class User extends ChatJoin{
     	Main.clearScreen();
         System.out.println("Exiting program . .");
         System.out.println("Thank you for using " + Main.PROGRAM_NAME + ".");
+        client.closeConnection();
         System.exit(0);
     }
 }
