@@ -117,11 +117,11 @@ public class ChatServer {
                 	// DCheck if the user IP is banned.
             		if (bannedIPs.containsKey(userIP)) {
             			out.println("BANNED");
-            			return;
+            			break;
             		}
             		
-                	String input = in.readLine(); // Read user message.
-                	UserSession currentUserSession = sessions.get(sessionId); // Get user session.
+                	String input = in.readLine(); // Read user message
+                	UserSession currentUserSession = sessions.get(sessionId); // Get user session
                 	
                     if (input == null || input.trim().isEmpty()) continue;
                     
@@ -244,12 +244,12 @@ public class ChatServer {
         	        return false;
         	    }
         		
-        		// AnonyMe
+        		// AnonyMe.
         		out.println("ANONYMOUS");
         		String isAnony = in.readLine();
         		if("y".equalsIgnoreCase(isAnony)) Anonymous = true;
         		
-        		// Hey
+        		// Hey.
         		out.println("LOGINPASS");
         		return true;
         	} catch (IOException e) {
@@ -426,7 +426,7 @@ public class ChatServer {
         }
 
         private void unban(String username) {
-            if (username != null && onlineUsers.containsKey(username) && !adminUsers.contains(username)) {
+            if (username != null && bannedIPs.containsKey(username) && !adminUsers.contains(username)) {
                 List<String> userIPsToUnban = userIPHistory.get(username);
                 if (userIPsToUnban != null) {
                     for (String ip : userIPsToUnban) {
