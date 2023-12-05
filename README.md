@@ -1,6 +1,6 @@
 ![Your Icon](icon.ico)
 # AnonyChat
-Anonychat is a command-line interface (CLI) based chat application that enables users to connect and communicate in a secure and user-friendly environment. Designed with a focus on privacy chatting, it provides essential functionalities for both regular users and server root, ensuring private and safe communication.
+AnonyChat is a command-line interface (CLI) based chat application that enables users to connect and communicate in a secure and user-friendly environment. Designed with a focus on privacy chatting, it provides essential functionalities for both regular users and server root, ensuring private and safe communication.
 
 🔐 **Important**: Read the "ChatServer&&Client with SSL/TLS Encryption" section below to understand how Anonychat ensures privacy through SSL/TLS encryption.
 
@@ -15,14 +15,14 @@ Anonychat is a command-line interface (CLI) based chat application that enables 
 - You can download from [Oracle's Java website](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html).
 
 ### Windows
-1. Download the Anonychat.exe file.
-2. Double-click on Anonychat.exe to run the application.
+1. Download the AnonyChat.exe file.
+2. Double-click on AnonyChat.exe to run the application.
 
 ### Mac and Linux
 1. Download the Anonychat.jar file.
 2. Open your terminal.
-3. Navigate to the directory where you downloaded Anonychat.jar.
-4. Run the program using the command: `java -jar Anonychat.jar`.
+3. Navigate to the directory where you downloaded AnonyChat.jar.
+4. Run the program using the command: `java -jar AnonyChat.jar`.
 
 ## 🔒 ChatServer&&Client with SSL/TLS Encryption
 
@@ -97,4 +97,4 @@ This repository contains a Java chat server application with added SSL/TLS encry
 6. Use this URL to access your server from anywhere in the world.
 
 ## ⚠️ Antivirus Notification
-Some antivirus software might flag Anonychat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for Anonychat.
+Some antivirus software might flag AnonyChat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for AnonyChat.
