@@ -87,14 +87,30 @@ This repository contains a Java chat server application with added SSL/TLS encry
 
 ## 🌍 Converting Local IP to Global IP Using Ngrok
 
-### Ngrok Setup and Usage
+### Running on a Server
 
-1. Download and install Ngrok from https://ngrok.com/.
-2. Connect your account using the auth token provided by Ngrok.
-3. Start your local server (e.g., a chat server running on port 8080).
-4. Use the command `ngrok tcp 8080` to start a tunnel to your local server.
-5. Ngrok will provide a public URL (global IP) for accessing your server.
-6. Use this URL to access your server from anywhere in the world.
+1. **Choose a Hosting Service**: Select a cloud hosting service like Amazon AWS, Google Cloud, or Microsoft Azure. These services typically offer virtual machines where you can deploy your applications.
+
+2. **Set Up the Server**: Follow the hosting service's instructions to set up a virtual machine. Install Java and any other necessary software on the server.
+
+3. **Deploy AnonyChat**: Upload the AnonyChat server application to the cloud server. You can do this through FTP, SSH, or any other method provided by the hosting service.
+
+4. **Configure Security Settings**: Make sure to configure the server's security settings to allow traffic on the port used by AnonyChat (e.g., port 8080).
+
+5. **Start AnonyChat**: Run the AnonyChat server application on the cloud server. The server's public IP address can now be used to access AnonyChat globally.
+
+### Opening a Port in Your Router
+
+1. **Access Router Settings**: Open your router's configuration page. This is usually done by entering the router’s IP address in a web browser.
+
+2. **Locate Port Forwarding Settings**: Find the port forwarding section in the router settings. This might be under sections like 'Advanced', 'Network', or 'Security'.
+
+3. **Configure Port Forwarding**: Create a new port forwarding rule. Enter the local IP address of the computer running AnonyChat, and specify the port used by AnonyChat (e.g., port 8080). Set the external port to the same value.
+
+4. **Save and Apply Changes**: Save the settings and reboot the router if necessary.
+
+5. **Find Your Public IP**: Your public IP address is now the global access point for the AnonyChat server. You can find your public IP by searching "What is my IP" in a web browser.
+   
 
 ## ⚠️ Antivirus Notification
 Some antivirus software might flag AnonyChat as a potential virus or trojan. This is a false positive, likely due to the network communication features used in the program. If you encounter this issue, you may need to create an exception in your antivirus software for AnonyChat.
