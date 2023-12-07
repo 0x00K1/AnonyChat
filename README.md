@@ -109,7 +109,7 @@ This repository contains a Java chat server application with added SSL/TLS encry
 
 4. **Save and Apply Changes**: Save the settings and reboot the router if necessary.
 
-5. **Find Your Public IP**: Your public IP address is now the global access point for the AnonyChat server. You can find your public IP by searching "What is my IP" in a web browser.
+5. **Find Your Public IP**: Your public IP address is now the global access point for the AnonyChat server.
    
 
 ## ⚠️ Antivirus Notification
