@@ -85,7 +85,7 @@ This repository contains a Java chat server application with added SSL/TLS encry
 - Ensure that your client application also supports SSL. Use `SSLSocket` and `SSLSocketFactory` for client-side socket connections.
 - For self-signed certificates, configure the client to trust the server's certificate. For production with a CA-issued certificate, this is usually not needed.
 
-## 🌍 Converting Local IP to Global IP Using Ngrok
+## 🌍 Converting Local IP to Global IP
 
 ### Running on a Server
 
